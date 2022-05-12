@@ -1,0 +1,27 @@
+[
+  {
+    "brand": "Pepsi",
+    "price": 70,
+    "stock": 20
+  },
+  {
+    "brand": "Cola",
+    "price": 60,
+    "stock": 20
+  },
+  {
+    "brand": "Sprite",
+    "price": 70,
+    "stock": 20
+  },
+  {
+    "brand": "7Up",
+    "price": 90,
+    "stock": 20
+  },
+  {
+    "brand": "Redbull",
+    "price": 150,
+    "stock": 10
+  }
+]
