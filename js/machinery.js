@@ -10,7 +10,7 @@ refresh();
 
 function fetchDrink() {
   if (!localStorage.getItem("brand")) {
-    return $.getJSON("../json/brand.json", (data) => {
+    return $.getJSON("./json/brand.json", (data) => {
       localStorage.setItem("brand", JSON.stringify(data));
     });
   }
@@ -19,7 +19,7 @@ function fetchDrink() {
 
 function fetchCoin() {
   if (!localStorage.getItem("coin")) {
-    return $.getJSON("../json/coin.json", (data) => {
+    return $.getJSON("./json/coin.json", (data) => {
       localStorage.setItem("coin", JSON.stringify(data));
     });
   }
